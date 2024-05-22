@@ -1,0 +1,11 @@
+.scl {
+    display: block; /* o inline-block, dependiendo del contexto */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: blue;
+    font-size: 2rem;
+  }
+  
+
+
