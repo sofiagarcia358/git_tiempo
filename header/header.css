@@ -1,0 +1,80 @@
+
+
+.genn_header {
+    background-color: aqua;
+    padding: auto;
+
+}
+
+.Tiempo {
+    background-color: rgb(223, 220, 217);
+    border: 2px solid black;
+    padding: auto;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+
+}
+
+h1 {
+    font-size: 20px;
+    padding: auto;
+    width: 20rem;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top:2rem;
+    gap: 30rem;
+    border: 1px solid #95e0a8;
+    font-size: 18px;
+    
+    box-shadow: 5px 5px 5px black;
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+h1:hover {
+    width: 22rem;
+    transition: 0.4s;
+   background-color: transparent;
+   background-color: rgb(212, 223, 212);
+
+}
+
+.Tiempo img {
+    width: 50%;
+    height: 70%;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+a {
+    margin-top:2rem;
+    color: black;
+    text-decoration: none;
+    width: 10rem;
+    height: 2rem;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #95e0a8;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+a:hover {
+    width: 15rem;
+    transition: 0.4s;
+   background-color: transparent;
+   background-color: rgb(212, 223, 212);
+}
+
+img:hover{
+    width: 10rem;
+    transition: 0.4s;
+   background-color: transparent;
+
+}
